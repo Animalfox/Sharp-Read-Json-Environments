@@ -8,4 +8,4 @@ var config = new ConfigurationBuilder()
 var settings = config.GetRequiredSection("Settings").Get<Settings>();
 var message = settings?.Message;
 
-Console.WriteLine(""+message);
+Console.WriteLine(message);
